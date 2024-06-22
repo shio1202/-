@@ -1,0 +1,137 @@
+@media (max-width:747px) {
+.pc-menu{
+  display: none;}
+
+  .pc-menu{
+    display: none;}
+
+    #header img{display:none;}
+    .pc-menu ul{display:none;}
+
+    header{margin-top:-45vw; width: 100%;position: fixed;}
+
+    .pc-sm-menu{
+      display: block;
+      margin-top: -27px;
+      background-color:#736357;
+      opacity: 0.9;}
+
+
+  .hamburger-menu {
+    width: 60px;
+    height: 50px;
+    position: relative;
+    border: none;
+    background: transparent;
+    appearance: none;
+    padding: 0;
+    cursor: pointer;
+     }
+
+  .hamburger-menu__bar {
+    display: inline-block;
+    width: 45%;
+    height: 4px;
+    background:white;
+    position: absolute;
+    left: 50%;
+    border-radius:10px;
+    transform: translateX(-50%);
+    transition: .5s;}
+
+  .hamburger-menu__bar:first-child {top: 16px;}
+  .hamburger-menu__bar:nth-child(2) {top: 24px;}
+  .hamburger-menu__bar:last-child {top: 32px;}
+
+  .hamburger-menu--open .hamburger-menu__bar {top: 50%;}
+
+  .hamburger-menu--open .hamburger-menu__bar:first-child {
+    transform: translateX(-50%) translateY(-50%) rotate(45deg);}
+
+  .hamburger-menu--open .hamburger-menu__bar:last-child {
+    transform: translateX(-50%) translateY(-50%) rotate(-45deg);}
+
+  .hamburger-menu--open .hamburger-menu__bar:nth-child(2) {
+    display: none;}
+
+  .navigation {
+    display: none;
+    background:#736357;
+    opacity: 0.9;
+    position: absolute;
+    top:50px;
+    width: 100%;
+    z-index: 9999;}
+
+  .navigation__list {
+    text-align: center;
+    list-style: none;
+    padding: 0;
+    margin: 10;}
+
+  .navigation__list-item {
+    border-bottom: solid 1px #474747;}
+
+  .navigation__list-item:first-child {
+    border-top: solid 1px #474747;}
+
+  .navigation__link {
+    color: #fff;
+    font-weight: 700;
+    text-decoration: none;
+    display: block;
+    padding: 24px 0;
+    transition: .5s;}
+
+  @media (hover: hover) and (pointer: fine) {
+    .navigation__link:hover {
+      background: #333;}}
+
+  .pc-sm-menu ul a{
+    font-size: 20px;
+    font-weight: bold;
+    line-height: 2.5;
+    color:white;
+    text-decoration: none;
+    display: inline;
+    margin-right: 15px;}
+
+
+    #header-sm img{
+      margin-top: -3vh;
+      display: block;
+      width: 100%;}
+
+    #Otoiawase{
+        margin-top: -70px;
+        background-position-y:-20px;}
+
+    #Otoiawase img{
+        margin-top: -3vh;}
+
+    .text1 p{margin-top:2.5vh;}
+
+    .c-form {max-width: 70%;
+             margin-top:6.5vh;
+             margin-bottom:2vh;}
+
+    .c-form__required {margin: 0 0 0 3px;}
+
+
+    .c-form__item {
+      flex-wrap: nowrap;}
+
+    .c-form__label {
+         width: 40%;}
+
+    .c-form__input {
+         width: 55%;}
+
+    .footer{
+      margin-top:-8vw;  }
+
+   .footer-nav ul {
+     margin-top: -35px;}
+
+    .footer-copyright P{
+      margin-top: -55px;}
